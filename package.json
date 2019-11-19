@@ -1,0 +1,21 @@
+{
+	"name": "electron-starter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./src/main.js",
+	"scripts": {
+		"start": "electron ./src/main.js",
+		"build": "electron-builder --win",
+		"postinstall": "electron-builder install-app-deps"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"electron": "^7.1.1",
+		"electron-builder": "^21.2.0",
+		"electron-reload": "^1.5.0"
+	},
+	"build": {
+		"appId": "de.ardianshala.electron-starter"
+	}
+}
